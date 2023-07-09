@@ -7,4 +7,4 @@
 ## **Используемые технологии**
 ### HTML, CSS
 #
-## (https://khamadov.github.io/russian-travel/)
+### https://khamadov.github.io/russian-travel/
