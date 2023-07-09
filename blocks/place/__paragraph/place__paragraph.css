@@ -1,18 +1,18 @@
-.place__text {
+.place__paragraph {
   max-width: 484px;
 }
 @media screen and (max-width: 1024px) {
-  .place__text {
+  .place__paragraph {
     max-width: 465px;
   }
 }
 @media screen and (max-width: 768px) {
-  .place__text {
+  .place__paragraph {
     max-width: 352px;
   }
 }
 @media screen and (max-width: 320px) {
-  .place__text {
+  .place__paragraph {
     max-width: 288px;
   }
 }
