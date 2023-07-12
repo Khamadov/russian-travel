@@ -2,17 +2,16 @@
   display: flex;
   justify-content: space-between;
   max-width: calc(100% - 96px);
-  min-height: 52px;
   margin: 28px auto 0;
   align-items: center;
 }
-
 
 @media screen and (max-width: 768px) {
   .header {
     max-width: calc(100% - 48px);
   }
 }
+
 @media screen and (max-width: 320px) {
   .header {
     max-width: calc(100% - 32px);

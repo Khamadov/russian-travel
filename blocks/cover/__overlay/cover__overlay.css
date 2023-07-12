@@ -5,25 +5,31 @@
   min-height: 740px;
   width: 100%;
   background-image: url(../../../images/cover-image.png);
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   padding-top: 245px;
   text-align: center;
+  text-decoration: none;
+  color: #fff;
+  position: relative;
 }
 
 @media screen and (max-width: 1024px) {
   .cover__overlay {
+    background-size: cover;
     min-height: 640px;
     padding-top: 195px;
   }
 }
+
 @media screen and (max-width: 768px) {
   .cover__overlay {
     min-height: 480px;
     padding-top: 115px;
   }
 }
+
 @media screen and (max-width: 320px) {
   .cover__overlay {
     min-height: 200px;
